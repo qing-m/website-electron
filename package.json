@@ -1,0 +1,8 @@
+{
+  "name": "website-electron",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": "git@github.com:qing-m/website-electron.git",
+  "author": "王鹤垚 <wangheyao@zealfi.com>",
+  "license": "MIT"
+}
