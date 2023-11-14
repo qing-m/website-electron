@@ -2,7 +2,14 @@
   "name": "website-electron",
   "version": "1.0.0",
   "main": "main.js",
+  "scripts": {
+    "start": "nodemon --watch main.js --exec electron ."
+  },
   "repository": "git@github.com:qing-m/website-electron.git",
   "author": "王鹤垚 <wangheyao@zealfi.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^27.0.4",
+    "nodemon": "^3.0.1"
+  }
 }
